@@ -3,11 +3,13 @@ import React from 'react';
 import './App.css';
 import Sidebar from './components/Sidebar';
 import Main from './components/Main';
+import Thread from './components/Thread';
 
 function App() {
   return (
     <div>
         <Sidebar />
+        <Thread />
         <Main />
     </div>
   );
